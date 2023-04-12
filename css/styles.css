@@ -31,6 +31,11 @@ p{
 	text-indent: 20px;
 	text-align: justify;
 }
+p.policy a, p.policy a:visited, p.policy a:hover{
+	color:#815697;
+	font-size: 12px;
+	float: right;
+}
 hr{
 	border: 1px solid white;
 	border-bottom:none;
