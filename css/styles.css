@@ -76,20 +76,17 @@ section div:nth-child(2){
 	float:right;
 	width:60%;
 }
-main h2{
-	/* margin-top:0 !important; */
-}
 section div:nth-child(1) img{
 	float: left;
 	width: 100%;
-	margin:20px 20px 20px 0;
+	margin-top:20px;
 	border-radius: 15px;
 }
 section div:nth-child(1) a img{
 	width: 100%;
 	max-width: 150px;
 	border-radius: 0px;
-	margin:0;
+	margin-top:30px;
 }
 
 /* FOOTER */
@@ -97,4 +94,17 @@ footer{
 	float:left;
 	width:100%;
 	padding:20px;
+}
+
+@media only screen and (max-width: 600px) {
+	
+	section div:nth-child(1){
+		float:left;
+		width:100%;
+		text-align: center;
+	}
+	section div:nth-child(2){
+		float:left;
+		width:100%;
+	}
 }
