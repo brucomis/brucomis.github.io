@@ -86,7 +86,8 @@ section div:nth-child(1) img{
 	border-radius: 15px;
 }
 section div:nth-child(1) a img{
-	width: 150px;
+	width: 100%;
+	max-width: 150px;
 	border-radius: 0px;
 	margin:0;
 }
